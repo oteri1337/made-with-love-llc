@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("fonts/Flaticon.eot");
+  src: url("fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Flaticon.woff") format("woff"),
+    url("fonts/Flaticon.ttf") format("truetype"),
+    url("fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+}
+.flaticon-bitcoin-1:before {
+  content: "\f100";
+}
+.flaticon-blocks-with-angled-cuts:before {
+  content: "\f101";
+}
+.flaticon-straight-quotes:before {
+  content: "\f102";
+}
+.flaticon-left-quote:before {
+  content: "\f103";
+}
+.flaticon-quote:before {
+  content: "\f104";
+}
+.flaticon-bitcoin:before {
+  content: "\f105";
+}
+.flaticon-arrows-1:before {
+  content: "\f106";
+}
+.flaticon-arrows:before {
+  content: "\f107";
+}
+.flaticon-school-material:before {
+  content: "\f108";
+}
+.flaticon-blogging:before {
+  content: "\f109";
+}
+.flaticon-factory:before {
+  content: "\f10a";
+}
+.flaticon-people:before {
+  content: "\f10b";
+}
+.flaticon-technology:before {
+  content: "\f10c";
+}
+.flaticon-support:before {
+  content: "\f10d";
+}
+.flaticon-secure-shield:before {
+  content: "\f10e";
+}
+.flaticon-connection:before {
+  content: "\f10f";
+}
+.flaticon-analytics:before {
+  content: "\f110";
+}
+.flaticon-money-2:before {
+  content: "\f111";
+}
+.flaticon-market:before {
+  content: "\f112";
+}
+.flaticon-money-1:before {
+  content: "\f113";
+}
+.flaticon-money:before {
+  content: "\f114";
+}
+.flaticon-coin:before {
+  content: "\f115";
+}
+.flaticon-credit-card:before {
+  content: "\f116";
+}
+.flaticon-wallet:before {
+  content: "\f117";
+}

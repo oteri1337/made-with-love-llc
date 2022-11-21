@@ -1,0 +1,167 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  word-break: break-word;
+  top: 0px !important;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Signika Negative";
+}
+
+select {
+  width: 15rem;
+}
+
+pre {
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.card-panel {
+  padding: 18px;
+}
+
+.input-field input[type="search"] ~ .mdi-navigation-close,
+.input-field input[type="search"] ~ .material-icons {
+  top: 6px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  font-size: 1rem;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+nav {
+  box-shadow: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  max-width: 1400px;
+}
+
+nav .brand-logo {
+  font-size: 14px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+img {
+  margin: 0;
+}
+
+label {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+.card-panel {
+  margin: 0;
+}
+
+.collapsible-header {
+  font-size: 1.2rem;
+}
+
+.collection {
+  border: none;
+  margin-top: 0;
+}
+
+.collection .collection-item {
+  padding: 30px 20px;
+  margin-bottom: 1px !important;
+}
+
+.fixed-action-btn {
+  right: 100px;
+}
+
+.material-icons {
+  position: relative;
+  padding: 0 0.6rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.sidenav .user-view {
+  min-height: 25vh;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+#particles-js canvas {
+  position: absolute;
+  max-height: 766px;
+  top: 0;
+  left: 0;
+}
+
+.input-field .prefix {
+  font-size: 16px;
+}
+
+input {
+  font-size: 0.9rem !important;
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  margin: 0.2rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+.fixed-action-btn {
+  right: 30px;
+  bottom: 60px;
+}

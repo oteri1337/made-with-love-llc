@@ -1,0 +1,187 @@
+/* Width Below 320px - Small Mobile */
+/* Width Above 320px and Below 420px - Mobile */
+/* Width Above 420px and Below 1024px - Tablet */
+/* Width Above 1024px and At 1366px - Tablet or PC */
+/* Width Above 1366px - Large Screen PC */
+
+/* Height Above 560px and Below 620px - Small Mobile */
+/* Height Above 620px and Below 767px - IPhone 6 or PC */
+/* Height Above 767px and Below 820px - Tablet or Iphone X  */
+/* Height Above 820px - Tablet  */
+
+/* .input-field .prefix ~ input,
+.input-field .prefix ~ textarea,
+.input-field .prefix ~ label,
+.input-field .prefix ~ .validate ~ label,
+.input-field .prefix ~ .helper-text,
+.input-field .prefix ~ .autocomplete-content {
+  width: 80%;
+} */
+
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea,
+.input-field .prefix ~ label,
+.input-field .prefix ~ .validate ~ label,
+.input-field .prefix ~ .helper-text,
+.input-field .prefix ~ .autocomplete-content {
+  margin-left: 2rem;
+}
+
+.input-field .prefix {
+  left: -15px;
+  width: 3rem;
+}
+/* .input-field .prefix ~ input {
+  width: 70%;
+  width: calc(100% - 6rem);
+} */
+
+/* Small Screen Mobile */
+@media (max-width: 320px) {
+  input {
+    font-size: 0.7rem !important;
+  }
+
+  .collection .collection-item {
+    font-size: 1rem;
+  }
+  .chip {
+    font-size: 11px;
+  }
+}
+
+/* Mobile Sure */
+@media (max-width: 415px) {
+  .card.medium {
+    height: 310px;
+  }
+
+  .table-title {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 1rem !important;
+    text-align: center;
+  }
+
+  .table-content {
+    padding-bottom: 2rem !important;
+    text-align: center;
+  }
+
+  .container-50 {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .card
+    .card-action
+    a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    margin-right: 0;
+  }
+
+  .app-mobile-center {
+    text-align: center;
+  }
+
+  .chip {
+    height: 45px;
+    line-height: 20px;
+  }
+
+  .chip .close {
+    top: -9px;
+    line-height: 20px;
+  }
+
+  .app-px-3-5 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .container {
+    width: 99%;
+  }
+
+  ul.stepper .step .step-content {
+    margin-left: 1.5rem;
+    margin-right: 0;
+  }
+
+  nav .brand-logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .app-f-3-6 {
+    font-size: 2.5rem;
+  }
+
+  .mobile-table {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+  }
+
+  nav .brand-logo {
+    left: 45%;
+  }
+}
+
+/* Tablets and PCs */
+@media (min-width: 416px) {
+  .table-title {
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 1rem !important;
+    font-weight: bold;
+  }
+
+  .table-content {
+    padding: 1rem !important;
+    font-weight: bold;
+  }
+
+  .app-desktop-right {
+    text-align: right;
+  }
+
+  .container-50 {
+    max-width: 38%;
+  }
+
+  .app-big-right {
+    text-align: right;
+  }
+
+  .app-slider-title {
+    font-size: 45px;
+  }
+
+  h1 {
+    padding: 1rem;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .app-flex-vh {
+    min-height: 602px; /* Height of device mmius navbar height */
+  }
+
+  .app-px {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #particles-js canvas {
+    max-height: 664px;
+  }
+
+  .btn {
+    font-size: 15px;
+    height: 100%;
+  }
+
+  .container {
+    width: 85%;
+  }
+}

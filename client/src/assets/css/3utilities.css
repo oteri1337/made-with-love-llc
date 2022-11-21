@@ -1,0 +1,236 @@
+.app-flex-vh {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  min-height: 500px;
+}
+
+.app-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-button {
+  background: white;
+  border: 1px solid silver;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.app-flex-1 {
+  flex: 1;
+  text-align: center;
+}
+
+.app-flex-2 {
+  flex: 2;
+}
+
+.app-flex-3 {
+  flex: 3;
+}
+
+.app-flex-start {
+  align-items: flex-start;
+}
+
+.app-flex-center {
+  align-items: center;
+}
+
+.app-vh {
+  min-height: 766px;
+}
+
+.app-flex-l6 {
+  flex: 1;
+  flex-basis: 384px;
+}
+
+.app-flex-l3 {
+  flex: 1;
+  flex-basis: 192px;
+}
+
+.app-bold {
+  font-weight: bold;
+}
+
+.app-mb-0 {
+  margin-bottom: 0;
+}
+
+.app-mb-1 {
+  margin-bottom: 1rem;
+}
+
+.app-mb-2 {
+  margin-bottom: 2rem;
+}
+
+.app-mb-5 {
+  margin-bottom: 5rem;
+}
+
+.app-mt-0 {
+  margin: 0;
+}
+
+.app-mt-1 {
+  margin-top: 1rem;
+}
+
+.app-mt-2 {
+  margin-top: 2rem;
+}
+
+.app-mt-4 {
+  margin-top: 4rem;
+}
+
+.app-mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.app-mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.app-mx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.app-my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.app-my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app-my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.app-my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.app-p-0 {
+  padding: 0;
+}
+
+.app-p-3 {
+  padding: 3rem;
+}
+
+.app-pb-0 {
+  margin-bottom: 0;
+}
+
+.app-pb-1 {
+  padding-bottom: 1rem;
+}
+
+.app-pt-3 {
+  padding-top: 3rem;
+}
+
+.app-px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.app-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.app-px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.app-px-3 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.app-px-3-5 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.app-px-4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.app-py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.app-py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.app-py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.app-py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.app-py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.app-text-bold {
+  font-weight: bold;
+}
+
+.app-text-capitalize {
+  text-transform: capitalize;
+}
+
+.app-text-center {
+  text-align: center;
+}
+
+.app-text-justify {
+  text-align: justify;
+}
+
+.app-px {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.app-relative {
+  position: relative;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 600ms linear;
+}

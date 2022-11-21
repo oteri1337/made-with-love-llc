@@ -1,0 +1,151 @@
+.app-vh-image-2 {
+  background: url("../images/Slider2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-vh-image-3 {
+  background: url("../images/Slider3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2.4rem;
+}
+
+.h3 {
+  font-size: 2rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.h5 {
+  font-size: 1rem;
+}
+
+.h6 {
+  font-size: 1.5rem;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.image-center {
+  background-image: url("../images/app/topcenter.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.image-right {
+  background-image: url("../images/app/topright.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.image-left {
+  background-image: url("../images/app/topleft.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.app-image-back-1 {
+  background-image: url("../images/app/background1.jpg");
+  background-attachment: fixed;
+}
+
+.app-image-top-right {
+  background-image: url("../images/app/topright.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.app-image-top-center {
+  background-image: url("../images/app/topcenter.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.app-image-map {
+  background-image: url("../images/app/world-map-dark.png");
+}
+
+.app-image-slider-1 {
+  background: url("../images/Slider1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app-image-slider-2 {
+  background-image: url("../images/Slider2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app-image-slider-3 {
+  background-image: url("../images/Slider3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-image-about {
+  background: url("../images/app/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-vh-image {
+  background: url("../images/app/bitcoinbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.animate-up {
+  animation-name: animate-up;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1100px);
+  }
+}
+
+.app-trading-month {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.app-trading-day {
+  font-size: 2.1rem;
+}
+
+.app-slider-title {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.app-slider-caption {
+  font-size: 18px !important;
+  line-height: 27px;
+}

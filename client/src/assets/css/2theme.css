@@ -1,0 +1,276 @@
+:root {
+  --primary-backgroud: #313080;
+
+  --background-colour: #f2f2f2;
+
+  --background-font-colour: #000000;
+
+  --border-colour: #d6d8e0;
+
+  --secondary-background: #ffffff;
+
+  --secondary-font-colour: #6f8ba4;
+
+  --primary-font-colour: #e3e3e3;
+
+  --button-colour: #fab915;
+
+  --button-font-colour: #ffffff;
+
+  --alt-color: #2e5067;
+
+  --image: url("../images/app/bitcoinbg.jpg");
+}
+
+body {
+  background: var(--background-colour);
+  color: var(--background-font-colour);
+}
+
+.sidenav {
+  background: var(--secondary-background);
+  overflow-y: scroll;
+}
+
+.btn.btn-secondary {
+  border-radius: 5px;
+  font-weight: normal;
+  background: transparent;
+  color: var(--secondary-font-colour) !important;
+  border: 1px solid var(--secondary-font-colour);
+}
+
+.bg.bg-secondary a {
+  color: #039be5;
+}
+
+.alt-color {
+  color: #2e5067;
+}
+
+.tabs,
+.tabs .tab a:focus {
+  background: var(--background-colour);
+  opacity: 0.8;
+}
+
+.tabs .indicator {
+  background-color: var(--alt-color);
+}
+
+.tabs .tab a {
+  color: #2e5067;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  color: #039be5;
+}
+
+/* .tabs .tab a.active {
+  color: var(--alt-color);
+}
+
+.tabs .indicator {
+  background-color: var(--alt-color);
+}
+
+
+
+ */
+
+.coin {
+  padding: 1rem;
+  font-size: 3rem;
+  border-radius: 50%;
+  background: var(--primary-font-colour);
+  color: var(--primary-backgroud);
+}
+
+.app-bg-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.app-vh-image {
+  background: var(--image);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card {
+  color: var(--secondary-font-colour);
+  background: var(--secondary-background);
+}
+
+.card-panel {
+  color: var(--secondary-font-colour);
+  background: var(--secondary-background);
+}
+
+.contrast {
+  color: var(--background-font-colour) !important;
+}
+
+.secondary-header {
+  color: var(--secondary-font-colour) !important;
+  font-weight: bold;
+}
+
+.app-blue {
+  background: #313080;
+}
+
+.app-orange {
+  color: #fab915;
+}
+
+.btn.btn-alt {
+  background: var(--button-colour);
+  color: white;
+}
+
+.btn,
+.btn:focus,
+.btn-floating,
+.btn-floating:hover {
+  text-transform: uppercase;
+  background: var(--button-colour);
+  color: var(--button-font-colour) !important;
+  font-weight: bold;
+}
+
+.btn-color {
+  color: var(--button-colour) !important;
+}
+
+nav {
+  background-color: var(--primary-backgroud);
+}
+
+.sidenav .collapsible-header:hover,
+.sidenav.fixed .collapsible-header:hover,
+.sidenav .collapsible-header,
+.sidenav.fixed .collapsible-header {
+  background: var(--background-colour);
+  color: var(--background-font-colour);
+}
+
+.sidenav li > a > i,
+.sidenav li > a > [class^="mdi-"],
+.sidenav li > a li > a > [class*="mdi-"],
+.sidenav li > a > i.material-icons {
+  color: var(--background-font-colour);
+}
+
+.sidenav li > a,
+.sidenav li > a:hover {
+  background: var(--secondary-background);
+  color: var(--background-font-colour);
+}
+
+.sidenav li > a > span {
+  color: var(--background-font-colour);
+}
+
+.app-pattern-overlay {
+  position: absolute;
+}
+
+.btn-background {
+  background: var(--button-colour);
+  color: black;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: var(--background-colour);
+}
+
+.carousel .indicators .indicator-item {
+  width: 30px;
+  border-radius: 5px;
+}
+
+/* .carousel .indicators .indicator-item.active {
+} */
+
+.app-list-link {
+  color: var(--secondary-font-colour);
+}
+
+.app-trading-month {
+  margin: 0;
+  padding: 0 0.2rem;
+  font-weight: 500;
+}
+
+.app-trading-day {
+  font-size: 2.1rem;
+}
+
+input {
+  color: var(--background-font-colour);
+}
+
+.collection-item {
+  color: var(--secondary-font-colour);
+  border: 1px solid var(--border-colour) !important;
+  background: var(--secondary-background) !important;
+}
+
+.collapsible {
+  border-color: #434651;
+}
+
+.collapsible-header {
+  border-color: #434651;
+  color: var(--secondary-font-colour);
+  background: var(--secondary-background);
+}
+
+nav ul a,
+.trasparent a,
+nav .brand-logo {
+  color: var(--primary-font-colour);
+}
+
+.bg {
+  background-color: var(--primary-backgroud);
+  color: var(--primary-font-colour);
+}
+
+.bg a {
+  color: var(--primary-font-colour);
+}
+
+.bg.bg-secondary {
+  background-color: var(--secondary-background);
+  color: var(--secondary-font-colour);
+}
+
+.tap-target {
+  background: var(--button-colour);
+  color: var(--button-font-colour);
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: var(--primary-backgroud);
+}
+
+.app-image-top-left {
+  background-color: var(--secondary-background);
+  color: var(--secondary-font-colour);
+  background-image: url("../images/app/topleft.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+a.hover:hover {
+  color: #0decec;
+  border-bottom: 2px solid #0decec;
+}
