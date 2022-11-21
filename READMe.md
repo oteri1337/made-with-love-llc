@@ -1,6 +1,6 @@
 ### Steps to run PHP backend
 
-Upload code to server
+Copy code to server
 
 Enter database info into .env
 
