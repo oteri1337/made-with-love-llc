@@ -2,6 +2,8 @@
 
 Copy code to server
 
+Create SQL Database
+
 Enter database info into .env
 
 Install Composer Dependencies
