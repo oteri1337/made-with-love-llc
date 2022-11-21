@@ -33,7 +33,7 @@ Run webpack dev server
 
 ### Steps to build react for production
 
-Rum webpack build script
+Run webpack build script
   
     npm run build
 
