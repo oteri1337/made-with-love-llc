@@ -4,6 +4,10 @@ Upload code to server
 
 Enter database info into .env
 
+Install Composer Dependencies
+
+    composer install
+
 Run Database Migrations
 
     vendor/bin/phinx migrate
